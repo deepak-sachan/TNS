@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+    <com.example.tns.MyCustomView
+      		android:id="@+id/customView"
+			android:layout_width="325dp"
+			android:layout_height="280dp"
+ 		/>	
+    <TableLayout android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+		<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			>
+				
+			<Button android:id="@+id/btnSave"
+  		    android:text="Save"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"						
+			/>        		
+			<Button android:id="@+id/btnRemove"
+  		    android:text="Remove"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"				
+		    />
+			</TableRow>
+			<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			>
+			<Button android:id="@+id/btnLine"
+  		    android:text="Draw Line"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"		
+			/>
+			
+      	<Button android:id="@+id/btnText"
+      		android:text="Write Text"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist">	        
+	    </Button>
+    </TableRow>
+    <TableRow  android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      	
+        <Button android:id="@+id/btnLineRemoveAll"
+  		    android:text="Delete All Lines"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"				
+			/>
+			<Button android:id="@+id/btnLineRemoveLast"
+  		    android:text="Delete Last Line"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+				
+			/>			
+    </TableRow>
+    <TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+				>
+				
+			<Button android:id="@+id/btnNorth"
+  		    android:text="North"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"				
+			/>
+			<Button android:id="@+id/btnDanger"
+  		    android:text="Danger"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"			
+			/>  
+			</TableRow>      		
+			<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+				>
+				
+			<Button android:id="@+id/btnWarning"
+  		    android:text="Warning"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+		/>
+			
+      	<Button android:id="@+id/btnCaution"
+      		android:text="Caution"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist">
+	    </Button>
+    </TableRow>        
+    <TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      		
+			<Button android:id="@+id/btnUndoText"
+  		    android:text="Undo Text"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+		/>
+        
+    </TableRow>
+     <TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      		
+			<Button android:id="@+id/btnTower"
+  		    android:text="Tower"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+			/>
+			<Button android:id="@+id/btnDG"
+  		    android:text="DG"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+			/>
+        
+    </TableRow>
+     <TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      		
+			<Button android:id="@+id/btnShelter"
+  		    android:text="Shelter"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+			/>
+			<Button android:id="@+id/btnBldg"
+  		    android:text="Building"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+			/>
+        
+    </TableRow>
+     
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="#d8e9ec">
+    
+    <com.example.tns.AdjBldgCustomView
+      		android:id="@+id/customView"
+			android:layout_width="330dp"
+			android:layout_height="300dp"
+ 		/>	
+    <TableLayout android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="90dp"
+			>
+		<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			>
+				
+			<ImageButton android:id="@+id/btnSave"
+  		    android:src="@drawable/savesrc"
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"				
+			/>        		
+			<ImageButton android:id="@+id/btnRemove"
+  		    android:src="@drawable/removesrc"
+      		android:layout_width="match_parent"
+      		android:layout_marginLeft="10dp"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+		    />
+		</TableRow>
+		<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			>	
+			<ImageButton android:id="@+id/btnLine"
+  		    android:src="@drawable/linesrc"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			/>
+			
+      	<ImageButton android:id="@+id/btnText"
+      	    android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			android:layout_marginLeft="10dp"
+		    android:src="@drawable/textsrc"
+      	>	        
+	    </ImageButton>
+    </TableRow>
+     <TableRow  android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      	
+        <ImageButton android:id="@+id/btnLineRemoveAll"
+  		    android:src="@drawable/deleteallsrc"	    
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			/>
+			<ImageButton android:id="@+id/btnLineRemoveLast"
+  		    android:src="@drawable/undolinesrc" 		    
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_marginLeft="10dp"
+			android:background="#ff8000"					
+			/>			
+    </TableRow>
+    <TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+				>
+				
+			<ImageButton android:id="@+id/btntt"
+  		    android:src="@drawable/towertsrc"   
+      		android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			
+			/>
+			<ImageButton android:id="@+id/btntr"
+  		    android:src="@drawable/towerrsrc"     		    
+      		android:layout_width="wrap_content"
+      		android:layout_marginLeft="10dp"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			
+			/>
+	</TableRow>		
+	<TableRow android:layout_marginTop="5dp">		
+			<ImageButton android:id="@+id/btnpr"
+  		    android:src="@drawable/polersrc"		    
+      		android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			
+			/>
+			
+      	<ImageButton android:id="@+id/btnpt"
+  		    android:src="@drawable/poletsrc"  		    
+      		android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:layout_marginLeft="10dp"
+			android:background="#ff8000"
+			/>
+      </TableRow>	
+      <TableRow android:layout_marginTop="5dp">	
+      	<ImageButton android:id="@+id/btnpe"
+  		    android:src="@drawable/poleesrc"    
+      		android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:background="#ff8000"	
+						
+			/>
+         
+    <ImageButton android:id="@+id/btnUndoText"  		    
+  		    android:src="@drawable/undotsrc"
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_marginLeft="10dp"
+			android:background="#ff8000"
+			/>
+    </TableRow>   
+    </TableLayout>
+</LinearLayout>

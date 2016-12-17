@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">    
+
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"        
+        />
+    <TextView android:id="@+id/txtOperator"        
+        android:layout_width="108dp"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></TextView>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+   
+    <TextView android:id="@+id/txtAntennaNo"        
+        android:layout_width="108dp"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></TextView>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    
+    <TextView android:id="@+id/txtCornerNo"        
+        android:layout_width="108dp"    
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></TextView>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    <EditText android:id="@+id/edHeight"        
+        android:layout_width="108dp"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+    	android:singleLine="true"
+    	android:inputType="textNoSuggestions|textFilter|number"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></EditText>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    
+    <EditText android:id="@+id/edDistance"                
+        android:layout_width="108dp"
+        android:imeOptions="actionDone"
+    	android:singleLine="true"
+    	android:inputType="textNoSuggestions|textFilter|number"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></EditText>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"        
+        />       
+      
+        
+</LinearLayout>

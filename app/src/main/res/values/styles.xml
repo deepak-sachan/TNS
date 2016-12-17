@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="listText">
+         <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <!-- For all lists -->
+    <style name="alllist">
+         <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="listheader">         
+        <item name="android:layout_height">wrap_content</item>        
+        <item name="android:typeface">sans</item>
+    </style>
+    <!-- For all lists titles -->
+    <style name="listtitle">   
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>        
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--  For all list submit buttons -->
+    <style name="listsubmitbutton">   
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Submit</item>        
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/roundbuttonsubmit</item>
+    </style>
+    <!-- For all header titles of lists -->        
+    <style name="onerowheadertitle">   
+        <item name="android:background">#faaaab</item>
+        <item name="android:textSize">12sp</item>        
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!-- For all options -->        
+    <style name="alloptionssitebutton">   
+        <item name="android:background">@drawable/roundbuttonsubmit</item>         
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>        
+    </style>
+    <!-- For all list row items -->        
+    <style name="onelistrowitems">   
+        <item name="android:textSize">9sp</item>         
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>        
+    </style>
+    
+    <!-- For all drag drop buttons
+					-->        
+    <style name="dragdropbuttons">   
+        <item name="android:background">@drawable/roundedittextlist</item>         
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>        
+    </style>
+        
+    
+</resources>

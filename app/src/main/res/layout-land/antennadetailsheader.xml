@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#d8e9ec"
+    android:orientation="horizontal" >
+    
+    <TextView android:text="Address"        
+        android:layout_width="240dp"
+       android:background="#2a7fff"
+       android:textColor="#ffffff"
+        android:textSize="12sp"       
+        android:layout_weight=".40" 
+        
+        android:layout_height="wrap_content"
+        android:gravity="left"/>
+   <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    
+    <TextView android:text="IP ID"
+        android:layout_width="125dp"
+       android:background="#2a7fff"
+       android:textColor="#ffffff"
+        android:textSize="12sp"        
+        android:layout_weight=".20" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    <TextView android:text="Operator"
+        android:layout_width="125dp"
+       android:background="#2a7fff"
+        android:textSize="12sp"        
+        android:textColor="#ffffff"
+        android:layout_weight=".20" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    <TextView android:text="Antenna"
+        android:layout_width="90dp"
+        android:background="#2a7fff"
+        android:textSize="12sp"        
+        android:textColor="#ffffff"
+        android:layout_weight=".20" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+    
+
+</LinearLayout>

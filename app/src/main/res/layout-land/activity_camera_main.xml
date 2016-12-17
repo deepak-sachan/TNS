@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+  <FrameLayout android:id="@+id/camera_preview"
+      android:layout_width="470dp"
+      android:layout_height="300dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"></FrameLayout>
+  <Button android:id="@+id/btnCapture"
+      android:text="Capture"
+      android:layout_width="wrap_content"
+      android:background="#ff8000"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/camera_preview"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"/>
+  <Button android:id="@+id/btnExit"
+      android:text="Exit"
+      android:background="#ff8000"
+      android:onClick="callexit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/btnCapture"
+      android:layout_toRightOf="@+id/camera_preview"
+      android:layout_alignParentRight="true"
+      android:layout_marginTop="3dp"
+      />
+  <TextView android:id="@+id/txtAzi"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/btnExit"
+      android:layout_marginTop="3dp"
+      android:layout_alignParentRight="true"
+      android:textStyle="bold"
+      android:gravity="right"
+      ></TextView>
+  <com.example.tns.CompassView android:id="@+id/compass"
+      android:layout_width="80dp"      
+      android:layout_height="80dp"
+      android:layout_below="@+id/txtAzi"
+      android:layout_marginTop="3dp"
+      android:layout_alignParentRight="true"
+      android:visibility="gone"
+       ></com.example.tns.CompassView>
+  
+   <Spinner android:id="@+id/spnImages"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:visibility="invisible"
+       android:layout_below="@+id/txtAzi"   
+       />
+  
+</RelativeLayout>

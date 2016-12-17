@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">    
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+
+    <TextView android:id="@+id/txtBldgDetails"        
+        android:layout_width="70dp"        
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        ></TextView>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    
+   <EditText android:id="@+id/edLatitude"        
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+        android:gravity="center_horizontal"
+         ></EditText>
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+         
+         
+    <EditText android:id="@+id/edLongitude"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+        android:gravity="center_horizontal"
+        ></EditText>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    
+    
+    <EditText android:id="@+id/edFloor"        
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+        android:gravity="center_horizontal"
+          ></EditText>
+   
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+        <EditText android:id="@+id/edAzimuth"        
+        android:layout_width="70dp"        
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+        android:gravity="center_horizontal"
+         ></EditText>        
+          <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+          
+         <EditText android:id="@+id/edBldgHeight"        
+        android:layout_width="70dp"        
+        android:layout_height="wrap_content"
+        android:textSize="9sp"         
+        android:imeOptions="actionDone"
+        android:gravity="center_horizontal"
+         ></EditText>         
+         
+          <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+         
+        <EditText android:id="@+id/edDistance"        
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+         ></EditText>
+         <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+         
+      <Button android:id="@+id/btnGetDistance"        
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:textSize="9sp"         
+        android:gravity="center_horizontal"
+        />
+       <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+        
+      
+</LinearLayout>

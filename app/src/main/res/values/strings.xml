@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TNS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+ 	<color name="listDivider">#cfcfcf</color>
+ 	 <string-array name="Tower">
+       <item value="0">Tower0</item> 
+	   <item value="30">Tower30</item>
+       <item value="60">Tower60</item>
+       <item value="90">Tower90</item>
+       <item value="120">Tower120</item>
+       <item value="150">Tower150</item>
+       <item value="180">Tower180</item>
+       <item value="210">Tower210</item>
+       <item value="240">Tower240</item>
+       <item value="270">Tower270</item>
+       <item value="300">Tower300</item>
+       <item value="360">Tower330</item>
+       <item value="SEC_1">SEC-1</item>
+                    <item value="SEC_2" >SEC-2</item>
+                    <item value="SEC_3">SEC-3</item>
+                    <item value="Tower">Tower</item>
+                    <item value="TowerBuilding">Tower Building</item>
+                    <item value="Warning">Warning</item>
+                    <item value="DANGER">DANGER</item>
+                    <item Value="CAUTION">CAUTION</item>   
+                      <item value="B1">BUILDING-B1</item> 
+                    <item value="B2">BUILDING-B2</item> 
+                    <item value="B3">BUILDING-B3</item> 
+                    <item value="B4">BUILDING-B4</item> 
+                    <item value="B5">BUILDING-B5</item> 
+                    <item value="B6">BUILDING-B6</item> 
+                    <item value="B7">BUILDING-B7</item> 
+                    <item value="B8">BUILDING-B8</item> 
+                    <item value="B9">BUILDING-B9</item> 
+                    
+                    <item value="C1">C1</item> 
+                    <item value="C2">C2</item> 
+                    <item value="C3">C3</item> 
+                    <item value="C4">C4</item> 
+                    <item value="SGPS">SITE-GPS</item> 
+                    <item value="ADJ_T1">ADJ-T1</item> 
+                    <item value="ADJ_T2">ADJ-T2</item> 
+                    <item value="ADJ_GPS1">ADJ-GPS1</item> 
+                    <item value="ADJ_GPS2">ADJ-GPS2</item> 
+                    
+                    
+    </string-array>
+</resources>

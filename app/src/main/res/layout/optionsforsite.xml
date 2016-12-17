@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/btnDownload"
+        android:text="Download"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="@style/alloptionssitebutton"
+        android:layout_marginTop="35dp"
+        android:onClick="calldownload"/>
+    
+     <TextView android:id="@+id/txtDownBytes"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"></TextView>
+    
+    <Button android:id="@+id/btnPending"
+        android:text="Pending Survey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"        
+        android:onClick="callpending"/>
+    
+    <Button android:id="@+id/btnCompleted"
+        android:text="Completed Survey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"        
+        android:onClick="callcompleted"/>
+    
+    <Button android:id="@+id/btnUpload"
+        android:text="Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="callupload"/>
+    
+    <Button android:id="@+id/btnLogout"
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"        
+        android:onClick="calllogout"/>
+
+</LinearLayout>

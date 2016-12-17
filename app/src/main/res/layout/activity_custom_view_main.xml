@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+     >
+  <com.example.tns.MyCustomView
+      android:id="@+id/customView"
+android:layout_width="430dp"
+android:layout_height="300dp"
+ />
+  <Button android:id="@+id/btnSave"
+      android:text="Save"
+      android:layout_width="65dp"
+android:layout_height="40dp"
+android:layout_below="@+id/customView"
+android:layout_marginLeft="4dp"
+android:layout_marginTop="10dp"
+/>
+<Button android:id="@+id/btnCaution"
+      android:text="Caution"
+      android:layout_width="65dp"
+android:layout_height="40dp"
+android:layout_below="@+id/customView"
+android:layout_toRightOf="@+id/btnSave"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="5dp"
+
+/>
+<Button android:id="@+id/btnNorth"
+      android:text="North"
+      android:layout_width="65dp"
+android:layout_height="40dp"
+android:layout_below="@+id/customView"
+android:layout_toRightOf="@+id/btnCaution"
+android:layout_marginLeft="5dp"
+android:layout_marginTop="10dp"
+/>
+  <Button android:id="@+id/btnRemove"
+      android:text="Remove"
+      android:layout_width="65dp"
+android:layout_height="40dp"
+android:layout_below="@+id/btnSave"
+android:layout_marginLeft="4dp"
+android:layout_marginTop="10dp"
+/>
+<ImageView android:id="@+id/test"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:layout_below="@+id/btnSave"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    />
+
+</RelativeLayout>

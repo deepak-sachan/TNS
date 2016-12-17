@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d8e9ec" >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="10dp"
+         >
+
+       <!--  <Button
+            android:id="@+id/btnTower"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/tower_new"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnBuild"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnTower"
+            android:layout_below="@+id/btnTower"
+            android:background="@drawable/entry"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnLine"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnBuild"
+            android:layout_below="@+id/btnBuild"
+            android:background="@drawable/line_tool"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnLine"
+            android:layout_below="@+id/btnLine"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/text_tool" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnTower"
+            android:background="@drawable/delete_new"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnCaution"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnDelete"
+            android:layout_below="@+id/btnDelete"
+            android:background="@drawable/caution_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnWarning"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnCaution"
+            android:layout_alignLeft="@+id/btnCaution"
+            android:background="@drawable/warning_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDanger"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnWarning"
+            android:layout_below="@+id/btnWarning"
+            android:background="@drawable/danger_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDG"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnDanger"
+            android:layout_alignLeft="@+id/btnDanger"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dg_new"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnRemoveLine"
+            android:layout_alignLeft="@+id/btnRemoveLine"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/save_new" />
+
+        <Button
+            android:id="@+id/btnRemoveLine"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnText"
+            android:layout_alignLeft="@+id/btnText"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line_undo"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnNorth"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnDG"
+            android:layout_alignLeft="@+id/btnDG"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/direction_new"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnTextUndo"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnSave"
+            android:layout_below="@+id/btnSave"
+            android:background="@drawable/text_undo_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnSheter"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/btnNorth"
+            android:layout_below="@+id/btnNorth"
+            android:background="@drawable/shelter_new"
+            android:layout_marginTop="5dp"
+            android:text="" /> -->
+
+        <Button
+            android:id="@+id/btnBuild"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/entry"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnCaution"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnBuild"
+            android:layout_below="@+id/btnBuild"
+            android:background="@drawable/caution_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+        <Button
+            android:id="@+id/btnWarning"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnCaution"
+            android:layout_alignLeft="@+id/btnCaution"
+            android:background="@drawable/warning_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDanger"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnWarning"
+            android:layout_below="@+id/btnWarning"
+            android:background="@drawable/danger_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnDG"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnDanger"
+            android:layout_alignLeft="@+id/btnDanger"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dg_new"
+            android:text="" />
+        <Button
+            android:id="@+id/btnSheter"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnDG"
+            android:layout_below="@+id/btnDG"
+            android:background="@drawable/shelter_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/btnSheter"
+            android:layout_alignLeft="@+id/btnSheter"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/save_next" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnBuild"
+            android:background="@drawable/delete_new"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnDelete"
+            android:layout_below="@+id/btnDelete"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_tool" />
+        <Button
+            android:id="@+id/btnTextUndo"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnText"
+            android:layout_below="@+id/btnText"
+            android:background="@drawable/text_undo_new"
+            android:layout_marginTop="5dp"
+            android:text="" />
+        <Button
+            android:id="@+id/btnLine"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/btnTextUndo"
+            android:layout_below="@+id/btnTextUndo"
+            android:background="@drawable/line_tool"
+            android:layout_marginTop="5dp"
+            android:text="" />
+        <Button
+            android:id="@+id/btnRemoveLine"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/btnLine"
+            android:layout_alignLeft="@+id/btnLine"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line_undo"
+            android:text="" />
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/relativeLayout1" >
+        
+          <com.example.tns.ak.MyView
+      		android:id="@+id/customView"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/draw"
+ 		/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#d8e9ec" >
+    
+    <com.example.tns.AutoDrawBuildingCustomView
+        android:id="@+id/autocustomView"
+			android:layout_width="350dp"
+			android:layout_height="350dp"></com.example.tns.AutoDrawBuildingCustomView>
+ <TableLayout android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="90dp"
+			>
+		<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			
+			>
+				
+		<ImageButton android:id="@+id/btnText"
+      	    android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+		    android:src="@drawable/textsrc"
+		    android:layout_marginLeft="10dp"
+      			>	        
+	    </ImageButton>
+	    
+		<ImageButton android:id="@+id/btnUndoText"  		    
+  		    android:src="@drawable/undotsrc"
+      		android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:background="#ff8000"
+			android:layout_marginLeft="10dp"
+			/>
+		</TableRow>
+		<TableRow android:layout_marginTop="5dp">	
+			
+	    
+			<ImageButton android:id="@+id/btnSave"
+  		    android:src="@drawable/savesrc"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dp"				
+			android:background="#ff8000"		
+			/>
+			</TableRow>  
+	</TableLayout>
+	</LinearLayout>	

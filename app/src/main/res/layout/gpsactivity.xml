@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:gravity="center">
+	        <TextView android:id="@+id/txtgetGPSdata"
+            android:layout_height="40dp"
+            android:layout_width="100dp"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="lat"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            />
+        	<EditText android:inputType="number"
+            android:layout_height="40dp"
+            android:layout_width="110dp"
+            android:id="@+id/edLatitude"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="longi"
+           android:layout_height="40dp"
+            android:layout_width="80dp"
+            />
+        	<EditText android:inputType="number"
+            android:layout_height="40dp"
+            android:layout_width="110dp"
+            android:id="@+id/edLongitude"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="accuracy"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            />
+        	<EditText android:inputType="number"
+            android:layout_height="40dp"
+            android:layout_width="110dp"
+            android:id="@+id/edAccuracy"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="lastUpdated"
+            android:layout_height="40dp"
+            android:layout_width="80dp"
+            />
+        	<EditText android:inputType="number"
+            android:layout_height="40dp"
+            android:layout_width="110dp"
+            android:id="@+id/edLastUpdated"
+            />
+    </TableRow>
+    <TableRow >
+        	<Button android:text="gpsvalues"
+            android:layout_height="40dp"
+            android:layout_width="110dp"
+            android:id="@+id/btnGPSValues"
+            android:onClick="getGPSValues"
+            />
+        	<Button android:text="savenext"
+            android:layout_height="40dp"
+            android:layout_width="90dp"
+            android:id="@+id/btnSaveNext"
+            android:onClick="savenext"
+            />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        
+        />
+    
+    <TextView android:text="IP ID"        
+        android:layout_width="131dp"   
+          android:background="#2a7fff"
+          android:textColor="#ffffff"
+        android:textSize="12sp"        
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    <TextView android:text="Operator"        
+        android:layout_width="101dp"    
+        android:textColor="#ffffff"
+         android:background="#2a7fff"
+        android:textSize="12sp"        
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+    
+    <TextView android:text="Ant No"        
+        android:layout_width="101dp"
+         android:background="#2a7fff"
+         android:textColor="#ffffff"
+        android:textSize="12sp"        
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"/>
+    
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+        <TextView android:text="Building Name"        
+        android:layout_width="101dp"
+         android:background="#2a7fff"
+         android:textColor="#ffffff"
+        android:textSize="12sp"        
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+         <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        
+        />
+            
+    <TextView android:text="Distance(mtr)"       
+        android:layout_width="102dp"
+         android:background="#2a7fff"
+         android:textColor="#ffffff"
+        android:textSize="12sp"        
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"        
+        /> 
+        
+     <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"        
+        android:paddingRight="5dip"
+        />
+</LinearLayout>

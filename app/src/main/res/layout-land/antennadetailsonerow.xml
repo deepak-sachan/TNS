@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:weightSum="1"
+    android:background="#d8e9ec"
+    >    
+     
+    <TextView android:id="@+id/txtAddress"
+        android:text="Address"
+        android:layout_width="240dp"
+        android:textSize="9sp"
+        android:gravity="left"
+        android:layout_weight=".40"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    
+    <TextView android:id="@+id/txtIPID"
+        android:text="IP ID"
+        android:textSize="9sp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content" 
+        android:layout_weight=".20"       
+        android:gravity="center_horizontal"></TextView>
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    
+    <TextView android:id="@+id/txtOperator"
+        android:text="Operator"
+        android:textSize="9sp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".20"
+        android:gravity="center_horizontal"></TextView>
+    <TextView
+        android:id="@+id/verticalline"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/listDivider"        
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        />
+    
+    <EditText android:id="@+id/edAntennaNo"        
+        android:layout_width="90dp"
+        android:textSize="9sp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:imeOptions="actionDone"
+    	android:singleLine="true"
+    	android:layout_weight=".20"
+    	android:inputType="textNoSuggestions|textFilter|number"    
+        ></EditText>
+    
+        <TextView android:id="@+id/hiddenOpratorID"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"></TextView>
+    
+</LinearLayout>

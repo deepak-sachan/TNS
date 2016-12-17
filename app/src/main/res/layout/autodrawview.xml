@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.example.tns.AutoDrawCustomView
+        android:id="@+id/autocustomView"
+			android:layout_width="325dp"
+			android:layout_height="280dp"></com.example.tns.AutoDrawCustomView>
+ <TableLayout android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+		<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"			
+			>
+				
+			<Button android:id="@+id/btnLine"
+  		    android:text="Draw Line"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"		
+			/>
+			<Button android:id="@+id/btnLineRemoveAll"
+  		    android:text="Delete All Lines"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"	
+			android:layout_marginLeft="2dp"		
+			android:background="@drawable/roundedittextlist"						
+			/>
+		</TableRow>
+		<TableRow android:layout_marginTop="5dp">	
+			<Button android:id="@+id/btnLineRemoveLast"
+  		    android:text="Delete Last Line"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"			
+			android:background="@drawable/roundedittextlist"				
+			/>
+
+			<Button android:id="@+id/btnText"
+      		android:text="Add Text"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dp"	
+			android:background="@drawable/roundedittextlist"			/>
+			
+    </TableRow>
+    <TableRow android:layout_marginTop="5dp">	
+			<Button android:id="@+id/btnRemove"
+  		    android:text="Remove Image"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"		
+		 />
+	    
+			<Button android:id="@+id/btnSave"
+  		    android:text="Save"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dp"				
+			android:background="@drawable/roundedittextlist"		
+			/>        					
+    </TableRow>
+    <TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+				>
+				
+			<Button android:id="@+id/btnNorth"
+  		    android:text="North"  		    
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"				
+			/>
+			<Button android:id="@+id/btnDanger"
+  		    android:text="Danger"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"			
+			/>  
+			</TableRow>      		
+			<TableRow 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+				>
+				
+			<Button android:id="@+id/btnWarning"
+  		    android:text="Warning"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+		/>
+			
+      	<Button android:id="@+id/btnCaution"
+      		android:text="Caution"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist">
+	    </Button>
+    </TableRow>  
+     <TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp">
+      		
+			<Button android:id="@+id/btnUndoText"
+  		    android:text="Undo Text"
+      		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/roundedittextlist"
+		/>
+        
+    </TableRow>
+    </TableLayout>
+
+</LinearLayout>

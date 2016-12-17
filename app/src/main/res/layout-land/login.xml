@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e9ec">
+    <TableRow android:gravity="center">
+	        <TextView android:id="@+id/txtgetLoginData"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Login Credentials"
+            android:layout_gravity="center_horizontal"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="Username :"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+        	<EditText android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:id="@+id/edUsername"
+            android:layout_marginLeft="25dp"            
+            android:gravity="center_horizontal"
+            android:background="@drawable/roundedittextlist"
+            />
+    </TableRow>
+    <TableRow >
+        	<TextView android:text="Password :"
+           android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+        	<EditText android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:id="@+id/edPassword"
+            android:layout_marginLeft="25dp"            
+            android:gravity="center_horizontal" 
+            android:background="@drawable/roundedittextlist"           
+            />
+    </TableRow>    
+    <TableRow>
+        <TextView android:text="Password :"
+           android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:visibility="invisible"
+            />
+        	<Button android:text="Go"        	
+            android:layout_height="25dp"
+            android:layout_width="110dp"
+            android:id="@+id/btnLogin"
+            android:background="@drawable/roundbutton"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            />
+        	
+    </TableRow>
+</TableLayout>
